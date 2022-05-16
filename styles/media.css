@@ -1,0 +1,269 @@
+@media screen and (max-width: 1439px) {
+    .joinUs__img {
+        display: none;
+    }
+    .joinUs__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1224px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 12px 0 12px;
+    }
+    /* header */
+    .header__menu {
+        gap: 243px;
+        display: flex;
+    }
+    .header__button {
+        display: flex;
+    }
+    /* main */
+    .main__text h1 {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .header__menu {
+        gap: 50px
+    }
+    .step-item h3 {
+        font-size: 30px;
+    }
+    .step-item p {
+        font-size: 15px;
+        width: 400px;
+    }
+    .step_content {
+        gap: 30px;
+    }
+    .topNFT__cards {
+        grid-template-columns: 334px 334px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* header */
+    .header {
+        padding-bottom: 35px;
+    }
+    .text a {
+        font-size: 25px;
+    }
+    .header__menu {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header__button {
+        display: none;
+    }
+    .header__button a {
+        padding: 17px 19px;
+        font-size: 15px;
+    }
+    .header__bourger {
+        display: flex;
+    }
+    .header__list {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header__content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* main */
+    .main {
+        padding: 35px 0 75px 0;
+    }
+    .main__content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .main__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    /* Artists */
+    .artists__person {
+        justify-content: center;
+    }
+    .artist__img img {
+        width: 250px;
+    }
+    .artist__info-text p {
+        width: 340px;
+    }
+    /* Our work */
+    .ourWork {
+        padding-top: 20px;
+    }
+    .ourWork__text {
+        text-align: center;
+    }
+    .ourWork__content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ourWork__text img {
+        display: block;
+        width: 545px;
+    }
+    .ourWork__img img {
+        display: none;
+    }
+    .ourWork__text h2 {
+        margin-bottom: 30px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .ourWork__button {
+        justify-content: center;
+    }
+    /* step */
+    .step_content {
+        flex-direction: column-reverse;
+    }
+    .ourWork__text img {
+        width: 480px;
+        margin: 0 auto;
+    }
+    .joinUs__text h2 {
+        width: 630px;
+    }
+    .joinUs__text p {
+        width: 630px;
+    }
+    /* Collection */
+    .collection__cards {
+        flex-direction: column;
+    }
+    .collection__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 1s;
+    }
+    .collection__card h3 {
+        padding: 0 0 0 0;
+        margin-top: 20px;
+    }
+    .topNFT__cards {
+        grid-template-columns: 334px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .artist__info-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .artists__header p {
+        width: 320px;
+    }
+    .artists__header h2 {
+        width: 215px;
+    }
+    .artist__img {
+        width: 250px;
+    }
+    .artists__person {
+        flex-direction: column;
+        text-align: center;
+    }
+    .artist__info {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .artist__info h3 {
+        width: 320px;
+    }
+    .artist__info p {
+        width: 310px;
+    }
+    .artist__info-text {
+        width: 320px;
+    }
+    .text h2,
+    .text h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .ourWork__text h2 {
+        font-size: 30px;
+    }
+    .ourWork__text img {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .ourWork__text p {
+        width: 300px;
+        margin: 20px auto;
+    }
+    .ourWork__text {
+        width: 480px;
+    }
+    .joinUs__text h2 {
+        width: 480px;
+    }
+    .joinUs__text p {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* main */
+    .main__text h1 {
+        font-size: 32px;
+    }
+    .main__text p {
+        width: 320px;
+    }
+    .ourWork__text {
+        width: 320px;
+    }
+    .step-item {
+        width: 320px;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .step-item p {
+        width: 310px;
+    }
+    .joinUs__text h2 {
+        width: 320px;
+    }
+    .joinUs__text p {
+        width: 320px;
+    }
+    .joinUs__button a {
+        padding: 12px 37px 16px 37px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .collection__card:hover {
+        transform: scale(0.9);
+    }
+}
