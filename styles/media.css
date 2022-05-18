@@ -50,6 +50,9 @@
     .topNFT__cards {
         grid-template-columns: 334px 334px;
     }
+    .FAQ-block-header h3 {
+        font-size: 19px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -226,6 +229,13 @@
     }
     .joinUs__text p {
         width: 480px;
+    }
+    .FAQ-block-header h3 {
+        font-size: 17px;
+    }
+    .FAQ-block-header img {
+        width: 40px;
+        height: 40px;
     }
 }
 

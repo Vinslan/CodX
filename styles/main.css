@@ -486,3 +486,42 @@
 .topNFT__card-btn a:hover {
     transform: scale(0.9);
 }
+
+.topNFT__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+
+/* FAQ */
+
+.FAQ-block-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.FAQ__body-blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.FAQ__body-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.FAQ__body-block h3 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.FAQ-block-text {
+    display: none;
+    padding: 10px 20px 10px 20px
+}
