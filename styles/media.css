@@ -282,4 +282,13 @@
     .topNFT__card img {
         width: 320px;
     }
+    .FAQ__content {
+        padding: 25px 0 75px 0;
+    }
+    .FAQ__header {
+        margin-bottom: 35px;
+    }
+    .FAQ__body-blocks {
+        gap: 30px;
+    }
 }

@@ -497,6 +497,14 @@
 
 /* FAQ */
 
+.FAQ__content {
+    padding: 50px 0 130px 0;
+}
+
+.FAQ__header {
+    margin-bottom: 70px;
+}
+
 .FAQ-block-header {
     display: flex;
     flex-direction: row;
@@ -506,7 +514,7 @@
 .FAQ__body-blocks {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 70px;
 }
 
 .FAQ__body-block {
@@ -519,6 +527,10 @@
     font-size: 22px;
     line-height: 24px;
     font-weight: 400;
+}
+
+.FAQ-block-text.text p {
+    font-weight: 300;
 }
 
 .FAQ-block-text {
