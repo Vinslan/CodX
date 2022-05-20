@@ -654,3 +654,7 @@
     justify-content: space-between;
     margin-top: 50px;
 }
+
+.footer__annotation span {
+    color: #ff7f96;
+}
