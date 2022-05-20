@@ -53,6 +53,15 @@
     .FAQ-block-header h3 {
         font-size: 19px;
     }
+    .footer__main {
+        display: grid;
+        grid-template-columns: 150px 150px;
+        justify-content: start;
+        gap: 20px;
+    }
+    .footer__nav a {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -169,6 +178,12 @@
     .topNFT__cards {
         grid-template-columns: 334px;
     }
+    .footer__siteNav {
+        gap: 20px;
+    }
+    .footer__nav h4 {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 630px) {
@@ -269,6 +284,36 @@
     }
     .joinUs__button a {
         padding: 12px 37px 16px 37px;
+    }
+    .footer__main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__singUp {
+        align-items: center;
+        text-align: center;
+    }
+    .footer__logo {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer__singUp input {
+        min-width: 280px;
+    }
+    .footer__singUp p {
+        min-width: 310px;
+    }
+    .footer__nav a {
+        font-weight: 300;
+    }
+    .footer__annotation p {
+        font-size: 13px;
+    }
+    .footer__society img {
+        width: 20px;
+        height: 20px;
     }
 }
 
