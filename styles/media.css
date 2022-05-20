@@ -276,4 +276,10 @@
     .collection__card:hover {
         transform: scale(0.9);
     }
+    .topNFT__card {
+        width: 320px;
+    }
+    .topNFT__card img {
+        width: 320px;
+    }
 }

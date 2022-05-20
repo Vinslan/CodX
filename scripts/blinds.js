@@ -1,9 +1,5 @@
-function blinds() {
-    let blind = $(".FAQ-block-text").css("display");
-    if (blind === "none") {
-        $(".FAQ-block-text").css("display", "flex");
-    } else {
-        $(".FAQ-block-text").css("display", "none");
-    }
-
-}
+$(document).ready(function() {
+    $(".FAQ-block-header").click(function(event) {
+        $(this).next().slideToggle(300);
+    });
+});
